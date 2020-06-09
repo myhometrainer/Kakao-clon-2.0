@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-    <body>
+    <body class="chats__body">
         <div class="status-bar">
             <div class="status-bar__column">
                 <span class="status-bar__clock">24:24</span>
@@ -37,31 +37,48 @@
                 </span>
             </div>
         </header>
-        <main class="chat">
+        <main class="chat-screen">
             <ul class="chat__messages">
                 <span class="chat__timestamp">Monday, June 1 2020</span>
                 <li class="incoming-message message">
                     <img src="images/myson.png" class="m-avatar message avatar">
                     <div class="message__content">
-                        <span class="message_author">Best Friend</span>
-                        <div class="message__bubble">
+                        <span class="message__bubble">
                             I love you
-                        </div>
+                        </span>
+                        <span class="message__author">Best Friend</span>
                     </div>
                     <span class="message__timestamp"></span>
                 </li>
-                <li class="incoming-message message">
+                <li class="sent-message message">
                     <span class="message__timestamp"></span>
                     <div class="message__content">
-                        <div class="message__bubble">
+                        <span class="message__bubble">
                             I love you too!
-                        </div>
+                        </span>
+                    </div>                   
+                </li>
+                <li class="incoming-message message">
+                    <img src="images/myson.png" class="m-avatar message avatar">
+                    <div class="message__content">
+                        <span class="message__bubble">
+                            I love you
+                        </span>
+                        <span class="message__author">Best Friend</span>
                     </div>
-                    
+                    <span class="message__timestamp"></span>
+                </li>
+                <li class="sent-message message">
+                    <span class="message__timestamp"></span>
+                    <div class="message__content">
+                        <span class="message__bubble">
+                            I love you too!
+                        </span>
+                    </div>                   
                 </li>
             </ul>
         </main>
-        <div class="chat__wrtie">
+        <div class="chat__write">
             <div class="chat__write-column">
                 <i class="far fa-plus-square"></i>
             </div>
